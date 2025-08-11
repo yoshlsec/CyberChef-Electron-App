@@ -1,0 +1,26 @@
+{
+  "name": "cyberchefnet",
+  "version": "1.0.0",
+  "description": "Cyberchef Offline for Forensics Players",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "yoshlsec",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^37.2.6"
+  },
+  "build": {
+    "appId": "com.yoshlsec.cyberchefoffline",
+    "productName": "CyberChef 10.19.4 Offline",
+    "win": {
+      "target": "nsis",
+      "icon": "CyberChef_v10.19.4/aecc661b69309290f600.ico"
+    },
+    "mac": {
+      "target": "dmg",
+      "icon": "CyberChef_v10.19.4/aecc661b69309290f600.ico"
+    }
+  }
+}
