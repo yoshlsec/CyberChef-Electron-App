@@ -7,16 +7,6 @@ All credits to **GCHQ**.
 
 <hr>
 
-Fully operational, exactly as in the browser. Able to create, load recipies.
-
-![](Pasted_image_20250811173138.png)
-
-![](Pasted_image_20250811173050.png)
-
-You can insert files and download them. However, this is not a CyberChef promotion; rather, it’s a showcase of what can be achieved with Electron.
-
-As this is a demonstration of the tool I will left you here the files used for compiling the electron app in case you want to modify it yourself.
-
 ## File Distribution
 ### main.js
 > Main code of the Electron App
